@@ -1,0 +1,70 @@
+.navbar{
+    color: #dcefef;
+    text-align: right;
+    padding: 50px;
+    left: 10px;
+}
+#header{
+    text-align: left;
+    color: #dcefef;
+    padding: 10px;
+    animation-name: header;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    position: fixed;
+    top:0;
+    text-shadow: 0 0 3px #e4e2e3;
+}
+@keyframes header {
+    from {color: transparent;text-shadow: 0 0 0 transparent}
+    to {color: #dcefef;}
+}
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7f7a7d;
+    color:#e4e2e3;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #393738;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px #e4e2e3;
+}
+article {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+.rounder{
+    border-radius: 40px;
+}
+label {
+    margin-bottom: 8px;
+}
+button {
+    background-color: #7f7a7d;
+    color: #DCEFEF;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f0eff0;
+}
+a {color:#0a0a0a; text-decoration: none; padding: 10px !important}
+a:visited {color:#dcefef;!important}
+a:hover {color:#0a0a0a;!important}
+a:active {color:#dcefef;!important}
